@@ -1,0 +1,41 @@
+.container-trirdBlock {
+  display: flex;
+  margin-top: 80px !important;
+}
+
+.trirdBlock-context {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.trirdBlock-context h2 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #191C1F;
+  margin-bottom: 19px;
+  letter-spacing: 0.5px;
+}
+
+.trirdBlock-par {
+  color: #5E646A;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.trirdBlock-par p:nth-child(2) {
+  margin-top: 27px;
+}
+
+.trirdBlock-image {
+  position: relative;
+}
+
+.man {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+}

@@ -1,0 +1,40 @@
+.card-header {
+  margin-top: 80px;
+}
+
+.block-card {
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  width: 280px;
+  height: 164px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.block-card h3 {
+  color: #191C1F;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+.card:nth-child(2) h3 {
+  margin-top: 13px;
+}
+
+.block-card p {
+  color: #191C1F;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 3px;
+}

@@ -1,0 +1,79 @@
+.question-header {
+  margin-top: 185px;
+}
+
+.block-accordion {
+  width: 1040px;
+  margin: 40px auto 0 auto;
+}
+
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  background-color: #ECEFF2 !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content .css-ahj2mt-MuiTypography-root {
+  color: #191C1F !important;
+  font-weight: 600 !important;
+
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 18px !important;
+  line-height: 32px !important;
+  font-family: 'MyFont' !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover .css-ahj2mt-MuiTypography-root {
+  color: #2A6CEA !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root:hover .icon {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z' fill='%232A6CEA'/%3E%3Ccircle cx='12' cy='12' r='11' stroke='%232A6CEA' stroke-width='2'/%3E%3C/svg%3E%0A");
+}
+
+.css-15v22id-MuiAccordionDetails-root .css-ahj2mt-MuiTypography-root {
+  color: #5E646A !important;
+  font-weight: 400 !important;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 0;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+  margin: 25px 0 26px 0 !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 0px 80px 20px 18px !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+  margin: 0 !important;
+}
+
+.icon {
+  margin-top: 3px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z' fill='%23191C1F'/%3E%3Ccircle cx='12' cy='12' r='11' stroke='%23191C1F' stroke-width='2'/%3E%3C/svg%3E%0A");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  -webkit-transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded .icon {
+  -webkit-transform: rotate(140deg) !important;
+  -moz-transform: rotate(140deg) !important;
+  -ms-transform: rotate(140deg) !important;
+  transform: rotate(140deg) !important;
+}

@@ -1,0 +1,26 @@
+.container-askedCustomers {
+  margin-top: 115px !important;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block-customer {
+  width: 592px;
+  margin-bottom: 37px;
+}
+
+.block-customer p:first-child {
+  color: #191C1F;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.block-customer p:last-child {
+  color: #191C1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 18px;
+}

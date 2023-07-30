@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+
+    // Для абсолютного импорта
+    // "baseUrl": ".",
+
+    // Данный флаг позволяет использовать вместо import as * React from 'react' 
+    // можно использовать import React from 'react'
+    "esModuleInterop": true,
+
+    // позволяет работать с пакетами, которые используют common js как с обычными пакетами с помощью import ( вместо require() module.export)
+    "allowSyntheticDefaultImports": true
+  },
+   "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

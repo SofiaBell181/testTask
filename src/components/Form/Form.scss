@@ -1,0 +1,118 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 800px;
+  margin: 43px auto 0 auto;
+}
+
+.form-header {
+  margin-top: 110px;
+}
+
+input,
+label {
+  font-family: 'MyFont' !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: #5E646A !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+input,
+.container-footer p {
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 32px !important;
+}
+
+input {
+  width: 384px !important;
+}
+
+.col:first-child input {
+  border: none;
+  color: #191C1F !important;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col:last-child {
+  margin-top: 25px;
+}
+
+.block-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.block-checkbox label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #191C1F;
+}
+
+.css-wgai2y-MuiFormLabel-asterisk {
+  display: none;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #C2C8CD !important;
+
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #83898F !important;
+}
+
+.block-checkbox {
+  position: relative;
+  width: 100%;
+}
+
+.alert {
+  color: #F13636;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.block-checkbox .alert {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 2em !important;
+  margin-left: -15px;
+}
+
+input[type="submit"] {
+
+  background-color: #2A6CEA;
+  padding: 15px 40px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}

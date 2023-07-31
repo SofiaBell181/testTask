@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 export const Question: FC = () => {
   return (
     <div className="container container-question">
-      <div className='question-header'>
+      <div className='question-header' id='section-three'>
         <h2>Вопросы и ответы</h2>
       </div>
 

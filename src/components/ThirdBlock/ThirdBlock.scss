@@ -39,3 +39,50 @@
   left: 0;
   z-index: 10;
 }
+
+@media all and (max-width: 1100px) {
+  .container {
+    width: 900px;
+  }
+
+  .trirdBlock-image img {
+    width: 351px;
+    height: 265px;
+  }
+}
+
+@media all and (max-width: 415px) {
+
+.container-trirdBlock {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.trirdBlock-context h2 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.trirdBlock-par {
+  text-align: center;
+}
+}
+
+@media all and (max-width: 320px) {
+
+  .trirdBlock-image img {
+    width: 288px;
+    height: 217px;
+  }
+
+  .container-trirdBlock {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 !important;
+  }
+}

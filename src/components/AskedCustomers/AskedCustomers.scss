@@ -1,5 +1,5 @@
 .container-askedCustomers {
-  margin-top: 115px !important;
+  margin-top: 115px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -23,4 +23,34 @@
     font-size: 16px;
     line-height: 28px;
     margin-top: 18px;
+}
+
+@media all and (max-width: 1280px) {
+  .container-askedCustomers {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .container-askedCustomers {
+    justify-content: flex-start;
+  }
+
+  .block-customer {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 415px) {
+ .container-askedCustomers {
+   padding: 15px 10px 0 10px;
+   margin-top: 0;
+ }
+
+ .container-askedCustomers {
+   background-color: #F6F8FA;
+   width: 100% !important;
+
+ }
 }

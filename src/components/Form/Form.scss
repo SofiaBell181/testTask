@@ -116,3 +116,48 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 10px;
 }
+
+@media all and (max-width: 930px) {
+
+  form {
+    width: 728px;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .form-header {
+    margin-top: 50px;
+  }
+
+}
+
+@media all and (max-width: 415px) {
+
+  .form-header h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .col {
+    flex-direction: column;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 343px !important;
+    padding-bottom: 10px !important;
+  }
+
+  input {
+    width: 343px !important;
+  }
+
+  .col:first-child input {
+    background-color: #F6F8FA !important;
+  }
+
+  .col:last-child {
+    margin-top: 10px;
+  }
+  
+}

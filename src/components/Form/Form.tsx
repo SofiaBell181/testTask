@@ -31,7 +31,7 @@ export const Form: FC = () => {
 
   return (
     <div className="container container-form">
-      <div className='form-header'>
+      <div className='form-header' id='section-four'>
         <h2>Отправь форму</h2>
       </div>
 

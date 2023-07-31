@@ -7,7 +7,7 @@ export const ThirdBlock: FC = (params) => {
 
   return (
     <div className="container container-trirdBlock">
-      <div className="trirdBlock-context">
+      <div className="trirdBlock-context" id="section-two">
         <h2>Круто, ты дошел до третьего блока</h2>
         <div className="trirdBlock-par">
           <p>63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы свыше 15 000 ₽. </p>

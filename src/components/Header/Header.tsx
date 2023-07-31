@@ -1,5 +1,6 @@
 import { ButtonHTMLAttributes, FC, useRef, useState } from 'react'
 import './Header.scss'
+import { HashLink } from 'react-router-hash-link';
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className ?: string
@@ -34,11 +35,13 @@ export const Header:FC<IButtonProps> = (props) => {
             <div className='logo-circle'></div>
             <p className={active ? 'logo-par black' : 'logo-par white '}>testLab</p>
           </div>
-          <div className='links'>
-            <a href="">Как это работает</a>
-            <a href="">3-й блок</a>
-            <a href="">Вопросы и ответы</a>
-            <a href="">Форма</a>
+          <div className='hashlink'>
+            <div className='links'>
+              <HashLink smooth to={"/#section-one"}>Как это работает</HashLink>
+              <HashLink smooth to={"/#section-two"}>3-й блок</HashLink>
+              <HashLink smooth to={"/#section-three"}>Вопросы и ответы</HashLink>
+              <HashLink smooth to={"/#section-four"}>Форма</HashLink>
+            </div>
           </div>
           <button className="menu-icon" onClick={onHandle} ref={menuIcon}>
             <span></span>
@@ -54,10 +57,10 @@ export const Header:FC<IButtonProps> = (props) => {
 
       <div className="container-white" ref={menuNavbar}>
         <div className='links_mb'>
-          <a href="">Как это работает</a>
-          <a href="">3-й блок</a>
-          <a href="">Вопросы и ответы</a>
-          <a href="">Форма</a>
+          <HashLink smooth to={"/#section-one"}>Как это работает</HashLink>
+          <HashLink smooth to={"/#section-two"}>3-й блок</HashLink>
+          <HashLink smooth to={"/#section-three"}>Вопросы и ответы</HashLink>
+          <HashLink smooth to={"/#section-four"}>Форма</HashLink>
         </div>
       </div>
     </div>

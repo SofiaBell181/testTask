@@ -3,7 +3,7 @@ import './AskedCustomers.scss'
 
 export const AskedCustomers: FC = () => {
   return (
-    <div className="container container-askedCustomers">
+    <div className="container container-askedCustomers" >
       <div className="block-customer">
         <p>Опрошенных пользовались микрокредитами</p>
         <p>Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</p>

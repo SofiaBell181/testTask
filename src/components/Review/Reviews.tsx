@@ -39,7 +39,7 @@ export const Reviews = ({ reviews }: ISliderProps) => {
 
   return (
     <div className='container container-reviews'>
-      <div className='review-header'>
+      <div className='review-header' >
         <h2>Отзывы</h2>
       </div>   
       <div className='block-swiper'>

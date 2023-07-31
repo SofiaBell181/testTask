@@ -9,7 +9,7 @@
 }
 
 .container-white {
-  padding: 10px;
+  padding: 20px;
   background-color: #FFFFFF;
   height: 100%;
   width: 100%;
@@ -36,15 +36,18 @@
   padding: 25px 0;
 }
 
-.links {
-  margin-right: -24px;
-  display: flex;
-  justify-content: center;
+.hashlink {
   display: block;
+  margin-left: auto;
 }
 
 .menu-icon {
   display: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
 }
 
 .links a {
@@ -173,4 +176,184 @@
   background-color: #2A6CEA;
   color: #FFFFFF;
 
+}
+
+@media all and (max-width: 768px) {
+  .hashlink {
+    display: none;
+  }
+
+  .container {
+    width: 718px;
+  }
+
+  .container-header {
+    width: 768px;
+    height: 1024px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .container-head h1 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 500px;
+  }
+
+  .container-head p {
+
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .btn-head {
+    margin-top: 40px;
+  }
+
+  .menu-icon {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+
+  .menu-icon {
+    z-index: 15;
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .menu-icon span {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    transition: background 0.3s ease 0s;
+    background: #FCFCFC;
+    border-radius: 2px;
+  }
+
+  .menu-icon span::before {
+    top: -6px;
+  }
+
+  .menu-icon span::after {
+    bottom: -6px;
+  }
+
+  .menu-icon span::before,
+  .menu-icon span::after {
+    content: '';
+    border-radius: 2px;
+    width: 100%;
+    height: 3px;
+    background: #FCFCFC;
+    position: absolute;
+  }
+
+  .menu-icon._active span {
+    background: transparent;
+  }
+
+  .menu-icon span::before,
+  .menu-icon span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+  }
+
+
+  .menu-icon span::before {
+    transition-property: top, transform;
+  }
+
+  .menu-icon span::after {
+    transition-property: bottom, transform;
+  }
+
+  .menu-icon._active span::before {
+    top: 0;
+    transform: rotate(-45deg);
+
+  }
+
+  .menu-icon._active span::after {
+    bottom: -3px;
+    transform: rotate(45deg);
+  }
+
+  .menu-icon._active span::before,
+  .menu-icon._active span::after {
+    transition-delay: 0s, 0.3s;
+    background-color: #000000;
+  }
+
+
+  .container-white._active {
+    transform: translate(0px, 0px);
+  }
+
+  .logo {
+    z-index: 5;
+  }
+
+  .links_mb {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .links_mb a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    position: relative;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    display: block;
+    background: transparent;
+    text-decoration: none;
+    color: #83898F;
+    border-bottom: 1px solid #ECEFF2;
+    width: 100%;
+  }
+
+  .links_mb a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 7.17px;
+    height: 14px;
+    background-repeat: no-repeat;
+    bottom: 19px;
+    right: 5px;
+    background-image: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.400124 12.293C0.212616 12.4807 0.107328 12.7351 0.107422 13.0004C0.107516 13.2657 0.212984 13.52 0.400624 13.7075C0.588265 13.895 0.842708 14.0003 1.10798 14.0002C1.37325 14.0001 1.62762 13.8947 1.81512 13.707L6.40012 9.12104C6.96254 8.55845 7.27848 7.79553 7.27848 7.00004C7.27848 6.20454 6.96254 5.44162 6.40012 4.87904L1.81112 0.293037C1.62072 0.120876 1.3714 0.0285305 1.11478 0.0351199C0.858167 0.0417093 0.613915 0.146729 0.432594 0.328435C0.251274 0.510141 0.146773 0.754617 0.140729 1.01124C0.134685 1.26787 0.227559 1.517 0.400124 1.70704L4.98612 6.29304C5.17359 6.48056 5.27891 6.73487 5.27891 7.00004C5.27891 7.2652 5.17359 7.51951 4.98612 7.70704L0.400124 12.293Z' fill='%2383898F'/%3E%3C/svg%3E%0A");
+
+  }
+}
+
+@media all and (max-width: 415px) {
+  .container {
+    width: 355px;
+  }
+
+  .container-header {
+    width: 100%;
+    height: 596px;
+    background-image: url('/assets/images/background_mb.svg');
+
+  }
+
+  .container-head {
+    margin-top: 140px;
+  }
+
+  .container-head h1 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 300px;
+  }
 }

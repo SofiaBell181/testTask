@@ -9,7 +9,7 @@ export const Card: FC = () => {
   return (
     <div className="container container-card">
 
-      <div className="card-header">
+      <div className="card-header" id="section-one">
         <h2>Как это работает</h2>
       </div>
 

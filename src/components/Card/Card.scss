@@ -38,3 +38,40 @@
   font-weight: 400;
   margin-top: 3px;
 }
+
+@media all and (max-width: 1280px) {
+  .card {
+    margin: 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .block-card {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 415px) {
+
+  .card-header h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 0 20px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card div {
+    margin-left: 15px;
+  }
+
+}
